@@ -1,0 +1,9 @@
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# Never publish the working brief (contains tax strategy notes) or big binaries
+CONTAINER-BRIEF.md
+cloudflared.exe
