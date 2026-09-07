@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bel Fence — 40 ft Container Office · Dimensioned Spec (Rev H)</title>
+<style>
+:root{--ink:#14171d;--mut:#5b6472;--line:#dde2e9;--accent:#b07a1e;--head:#161b22;--zone:#eef2f7;}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 "Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#f6f7f9}
+header{background:var(--head);color:#f4f6fa;padding:22px 26px}
+header h1{margin:0 0 4px;font-size:21px}
+header .sub{color:#aeb7c4;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 20px 60px}
+.note{background:#fff8e8;border:1px solid #e6d9ad;border-left:4px solid var(--accent);padding:12px 14px;border-radius:6px;margin:16px 0;font-size:13.5px}
+.datum{background:#fff;border:1px solid var(--line);border-radius:8px;padding:14px 16px;margin:16px 0}
+.datum b{color:var(--accent)}
+h2{font-size:17px;margin:30px 0 8px;padding:8px 12px;background:var(--zone);border-radius:6px;border-left:4px solid var(--accent)}
+h2 span{float:right;font-weight:400;color:var(--mut);font-size:13px}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:6px 0 4px;font-size:13.5px}
+th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f0f2f5;font-weight:600;color:#2a2f38;font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.new{background:#eafaf0}
+.tag{display:inline-block;background:#eafaf0;color:#1c7a45;border:1px solid #b6e6c8;border-radius:4px;padding:0 6px;font-size:11px;margin-left:6px}
+.leg{color:var(--mut);font-size:12.5px;margin:2px 0 0}
+footer{color:var(--mut);font-size:12px;text-align:center;padding:24px}
+@media print{body{background:#fff}.wrap{max-width:none}h2{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style></head>
+<body>
+<header>
+  <h1>Bel Fence — 40 ft Container Office · <b>Dimensioned Specification</b></h1>
+  <div class="sub">Rev H · measured directly from the 3D walkthrough model · all dims to nearest 1/16" · verify in field before fabrication</div>
+</header>
+<div class="wrap">
+
+<div class="note"><b>Coordinate convention.</b> <b>X</b> = distance measured along the 39'-0" length from the <b>FRONT (TV) end wall</b> (X=0). <b>Z</b> = distance across the 7'-3" width from the <b>SOLID (galley) wall</b> (Z=0) toward the glass wall. <b>Y</b> = height above finished floor (AFF). Sizes are listed as <b>W&nbsp;(along length) × D&nbsp;(depth/across) × H</b>. "Nominal" = intended build dimension; "modeled" = as-built in the 3D file (they differ by up to ~1" where the model rounds).</div>
+
+<div class="datum">
+<b>CONTAINER SHELL</b> — 40 ft high-cube<br>
+Exterior (nominal): <b>40'-0"</b> L × <b>8'-0"</b> W × <b>9'-6"</b> H high-cube.<br>
+Interior clear (after 2–3" closed-cell spray foam): <b>39'-0"</b> L × <b>7'-3"</b> W × <b>8'-4"</b> clear H
+<span class="leg">(model datum LEN 39.00' · WID 7.25' · HGT 8.33' ≈ 8'-3&nbsp;15/16")</span>.<br>
+Floor buildup: insulated subfloor + LVP over sealed container floor. Ceiling: acoustic foam hung 2" below the ceiling (clear H at foam ≈ 8'-2").
+</div>
+
+<h2>1 · Partitions &amp; zone breakdown <span>down the 39'-0" length</span></h2>
+<table>
+<tr><th>Partition / zone</th><th>Plan location (X from front)</th><th>Clear length</th><th>Notes</th></tr>
+<tr><td><b>Zone 1 — Meeting room</b></td><td class="n">0'-0" → 12'-10&nbsp;13/16"</td><td class="n">12'-10&nbsp;13/16" <span class="leg">(nom 13'-0")</span></td><td>Seats 8–9; glass sliding entry; 75" TV on front wall</td></tr>
+<tr><td>Meeting/Studio partition (framed wall)</td><td class="n">12'-10&nbsp;13/16" → 13'-1&nbsp;3/16"</td><td class="n">2&nbsp;3/8" thick</td><td>Full height; bi-part barn opening, header at 6'-7&nbsp;3/16"</td></tr>
+<tr><td><b>Zone 2 — Open studio</b></td><td class="n">13'-1&nbsp;3/16" → 26'-0"</td><td class="n">12'-10&nbsp;13/16" <span class="leg">(nom 13'-0")</span></td><td>2 glass-wall desks + fold-down beds (4 configurable options)</td></tr>
+<tr><td><b>Zone 3 — Kitchenette</b></td><td class="n">26'-0" → 34'-4&nbsp;13/16"</td><td class="n">8'-4&nbsp;13/16" <span class="leg">(nom 8'-6")</span></td><td>Galley on solid wall: fridge, cooktop, microwave, Keurig, sink</td></tr>
+<tr><td>Kitchen/Bath partition (framed wall)</td><td class="n">34'-4&nbsp;13/16" → 34'-7&nbsp;3/16"</td><td class="n">2&nbsp;3/8" thick</td><td>Full height; barn door, header at 6'-7&nbsp;3/16"</td></tr>
+<tr><td><b>Zone 4 — Bath</b></td><td class="n">34'-7&nbsp;3/16" → 39'-0"</td><td class="n">4'-4&nbsp;13/16" <span class="leg">(nom 4'-6")</span></td><td>Corner shower, vanity, toilet, smart-glass window</td></tr>
+</table>
+
+<h2>2 · Openings &amp; doors</h2>
+<table>
+<tr><th>Opening</th><th>Location (X)</th><th>Clear W × H</th><th>Type / notes</th></tr>
+<tr><td>Glass sliding entry (glass wall)</td><td class="n">1'-6" → 4'-6"</td><td class="n">3'-0" × 7'-0"</td><td>Sliding glass leaf on view/deck side; leaf 1'-9&nbsp;5/8" W</td></tr>
+<tr><td>Meeting↔Studio bi-part barn</td><td class="n">at 13'-0" c/l</td><td class="n">3'-3" × 6'-4&nbsp;13/16"</td><td>Two leaves, each 1'-7&nbsp;3/16" W; park over the wall (no stick-out)</td></tr>
+<tr><td>Bath barn door</td><td class="n">at 34'-6" c/l</td><td class="n">2'-6" × 6'-4&nbsp;13/16"</td><td>Single sliding barn; parks over solid wall</td></tr>
+<tr><td>Glass wall (window band)</td><td class="n">0' → 39' (full length)</td><td class="n">— × 7'-9&nbsp;3/8" band</td><td>Sill 6&nbsp;5/8" AFF to 8'-4"; 3'-11" mullion spacing; Low-E + PDLC film</td></tr>
+</table>
+
+<h2>3 · Zone 1 — Meeting room <span>X 0' → 12'-11"</span></h2>
+<table>
+<tr><th>Element</th><th>Loc (X from front)</th><th>W × D × H</th><th>Base / mount (AFF)</th><th>Notes</th></tr>
+<tr><td>Conference table</td><td class="n">1'-6" → 11'-6"</td><td class="n">10'-0" × 2'-9&nbsp;5/8" × 2'-5"</td><td class="n">top ≈ 29"</td><td>Centered on width; seats 8–9</td></tr>
+<tr><td>75" wall TV</td><td class="n">front wall (X≈0)</td><td class="n">5'-5&nbsp;3/8" × — × 3'-1&nbsp;3/16"</td><td class="n">36" → 73"</td><td>Panel 65"×37" active; on solid end wall</td></tr>
+<tr><td>Office chairs ×8</td><td class="n">X 3'-6", 5'-9½", 8'-1", 10'-4¾"</td><td class="n">—</td><td class="n">seat 19"</td><td>4 on glass side (Z 5'-6"), 4 on solid side (Z 1'-8&nbsp;3/8")</td></tr>
+</table>
+
+<h2>4 · Zone 2 — Open studio <span>X 13' → 26'</span></h2>
+<table>
+<tr><th>Element</th><th>Loc (X from front)</th><th>W × D × H</th><th>Base / mount (AFF)</th><th>Notes</th></tr>
+<tr><td>Glass-wall desk (2 stations)</td><td class="n">13'-1&nbsp;13/16" → 25'-10"</td><td class="n">12'-8&nbsp;3/8" × 1'-8&nbsp;3/8" × —</td><td class="n">top 30"</td><td>Runs the glass wall; stations at X 16'-3" &amp; 22'-9"</td></tr>
+<tr><td>Fold-down FULL beds ×2</td><td class="n">c/l 16'-3" &amp; 22'-9"</td><td class="n">54" × 75" (plat. 6'-2&nbsp;7/8" × 4'-6")</td><td class="n">mattress ≈ 19"</td><td>On legs; clear the desks; verse-engraved stowed face</td></tr>
+<tr><td>Base bench (seat when beds up)</td><td class="n">13'-2&nbsp;3/8" → 25'-9&nbsp;5/8"</td><td class="n">12'-7&nbsp;3/16" × 1'-8&nbsp;3/16" × 1'-3&nbsp;5/8"</td><td class="n">seat 17"</td><td>Solid wall; roll-out drawers (2 per bed, 30" W)</td></tr>
+<tr><td>Upper office cabinets</td><td class="n">13'-2&nbsp;3/8" → 25'-9&nbsp;5/8"</td><td class="n">12'-7&nbsp;3/16" × 1'-3&nbsp;15/16" × 1'-1&nbsp;13/16"</td><td class="n">72" → 85¾"</td><td>Solid wall; doors swing ~100°</td></tr>
+<tr><td>Mini-split heads ×2</td><td class="n">9'-6" and 22'-0"</td><td class="n">3'-0" × 0'-6&nbsp;3/8" × 0'-8&nbsp;3/8"</td><td class="n">88&nbsp;3/16" AFF</td><td>High on solid wall</td></tr>
+</table>
+
+<h2>5 · Zone 3 — Kitchenette <span>X 26' → 34'-5"</span></h2>
+<p class="leg">Galley on the solid wall (Z 0). Base cabinet top / counter surface ≈ <b>37&nbsp;3/4"</b> AFF (36" cabinet + counter). Counter depth 2'-0&nbsp;3/8".</p>
+<table>
+<tr><th>Element</th><th>Loc (X from front)</th><th>W × D × H</th><th>Base (AFF)</th><th>Notes</th></tr>
+<tr><td>Refrigerator (Vissani 7.1 cu ft)</td><td class="n">26'-0" → 27'-9&nbsp;15/16"</td><td class="n">1'-9&nbsp;15/16" × 1'-10&nbsp;9/16" × 5'-0"</td><td class="n">floor</td><td>22" W × 60" H top-freezer</td></tr>
+<tr><td>Base cabinet + counter</td><td class="n">27'-10&nbsp;13/16" → 34'-6"</td><td class="n">6'-7&nbsp;3/16" × 1'-11&nbsp;3/4" × 3'-0"</td><td class="n">floor</td><td>Counter top at 37¾" AFF</td></tr>
+<tr><td>2-burner cooktop</td><td class="n">28'-6&nbsp;5/8" → 30'-2&nbsp;7/8"</td><td class="n">1'-8&nbsp;3/8" × 1'-1&nbsp;15/16" × —</td><td class="n">on counter</td><td>Range hood above at 60" AFF</td></tr>
+<tr class="new"><td><b>Microwave (compact)</b> <span class="tag">NEW</span></td><td class="n">30'-4&nbsp;13/16" → 31'-9&nbsp;5/8"</td><td class="n">1'-4&nbsp;13/16" × 1'-2&nbsp;3/8" × 1'-0&nbsp;5/8"</td><td class="n">on counter (37¾")</td><td>Black-stainless; ~16.8"W × 14.4"D × 12.6"H; between cooktop &amp; sink</td></tr>
+<tr class="new"><td><b>Keurig K-Slim</b> <span class="tag">NEW</span></td><td class="n">31'-10&nbsp;13/16" → 32'-3"</td><td class="n">0'-4&nbsp;3/16" × 1'-1&nbsp;3/16" × 1'-1&nbsp;13/16"</td><td class="n">on counter (37¾")</td><td>Slim single-serve; body 9" D, brew head to 13" D; mug station</td></tr>
+<tr><td>Kitchen sink (drop-in single bowl)</td><td class="n">32'-4&nbsp;3/16" → 34'-2&nbsp;3/16"</td><td class="n">rim 1'-10&nbsp;3/16" × 1'-0&nbsp;15/16"</td><td class="n">bowl 7&nbsp;3/16" deep</td><td>Gooseneck faucet; shares wet wall with bath</td></tr>
+<tr><td>Upper cabinets</td><td class="n">28'-0" → 34'-6"</td><td class="n">6'-6" × 1'-1&nbsp;9/16" × 1'-9&nbsp;5/8"</td><td class="n">56&nbsp;3/8" → 78"</td><td>12" deep; doors swing ~100°</td></tr>
+<tr><td>Over-fridge cabinet</td><td class="n">26'-0" → 27'-9&nbsp;15/16"</td><td class="n">1'-9&nbsp;15/16" × 1'-10&nbsp;9/16" × 1'-4&nbsp;13/16"</td><td class="n">61&nbsp;3/16" AFF</td><td>Matches fridge footprint (22" D)</td></tr>
+</table>
+<p class="leg"><b>Gap check between cooktop &amp; sink:</b> cooktop ends 30'-2&nbsp;7/8", sink rim starts 32'-4&nbsp;3/16" → <b>2'-1&nbsp;5/16" (≈25") of counter</b>; microwave (16.8") + Keurig (4.2") = ~21", leaving ~2" of clearance splits. Verify the specific microwave/Keurig models before ordering cabinets.</p>
+
+<h2>6 · Zone 4 — Bath <span>X 34'-7" → 39'</span></h2>
+<table>
+<tr><th>Element</th><th>Loc (X from front)</th><th>W × D × H</th><th>Base / mount (AFF)</th><th>Notes</th></tr>
+<tr><td>Corner shower</td><td class="n">37'-0" → 39'-0"</td><td class="n">2'-0" × 2'-9" footprint × 7'-0"</td><td class="n">rain head ≈ 6'-5"</td><td>Far glass corner; glass panel to 7'-0" <span class="leg">(design 36"×33")</span></td></tr>
+<tr><td>Vanity + vessel sink</td><td class="n">34'-9&nbsp;5/8" → 37'-0"</td><td class="n">2'-2&nbsp;3/8" × 1'-5&nbsp;3/4" × 2'-6"</td><td class="n">counter 30"</td><td>Vessel bowl + gooseneck; mirror above at 36"–54"</td></tr>
+<tr><td>Toilet</td><td class="n">37'-10&nbsp;13/16" → 39'-0"</td><td class="n">tank 10&nbsp;13/16" W × 1'-4&nbsp;3/16" H</td><td class="n">c/l 15" off wall</td><td>Far-right corner, faces shower</td></tr>
+<tr><td>Smart-glass window</td><td class="n">34'-6" → 39'-0"</td><td class="n">4'-6" × — × 7'-9" band</td><td class="n">sill 6&nbsp;5/8"</td><td>Frosted PDLC privacy film, toggles clear</td></tr>
+</table>
+
+<h2>7 · Exterior</h2>
+<table>
+<tr><th>Element</th><th>Loc (X)</th><th>W × D × H</th><th>Notes</th></tr>
+<tr><td>Entry deck (view/glass side)</td><td class="n">0'-6" → 6'-0"</td><td class="n">5'-6" × 4'-0" + 2 steps</td><td>At the glass sliding entry; wood</td></tr>
+<tr><td>Canopy / second roof</td><td class="n">-1'-6" → 40'-6"</td><td class="n">42'-0" × 10'-5&nbsp;3/8"</td><td>~10'-4" AFF over the 9'-6" box (biggest TX heat cut)</td></tr>
+<tr><td>Condenser units ×2</td><td class="n">9'-6" and 21'-6"</td><td class="n">3'-0" × 1'-9&nbsp;5/8" × 2'-6"</td><td>On the solid-wall side, on pads</td></tr>
+<tr><td>Leveling piers ×6</td><td class="n">X 2', 19'-6", 37' (both sides)</td><td class="n">1'-2" ø footing</td><td>Container sits on piers (movable — §1245 posture)</td></tr>
+</table>
+
+<div class="note">These figures are extracted from the current 3D model (Rev H) and are dimensionally consistent with it. The model is a design intent representation — <b>confirm shell interior (post-foam), glass-wall mullion layout, and appliance model numbers on site before cutting cabinets or ordering millwork.</b> The clear-height datum rounds to 8'-4"; individual furniture proportions are modeling approximations to ±½".</div>
+
+</div>
+<footer>Bel Fence · 40 ft Container Office · Dimensioned Spec generated from Container-Office-3D-Walkthrough.html (Rev H)</footer>
+</body></html>

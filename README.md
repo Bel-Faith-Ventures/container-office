@@ -11,6 +11,12 @@ Open it, tap/click to look around, and use the on-screen controls to walk throug
 On a computer you can also use WASD + mouse; on a phone, drag to look and use the
 touch controls.
 
+## 📐 Dimensioned spec (contractor sheet)
+
+**https://bel-faith-ventures.github.io/container-office/spec/**
+
+Every element measured to the nearest 1/16", extracted from the 3D model — prints clean.
+
 ## How it's hosted
 
 - The viewer is a single self-contained HTML file (three.js is inlined — it needs
